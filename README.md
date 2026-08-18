@@ -1,12 +1,12 @@
 # QaaS Literature-Driven Fuzzy QFD Framework
 
-Official Python implementation and multi-tiered sensitivity analysis engine for the research manuscript on **Quantum-as-a-Service (QaaS) platform capability prioritization**.
+Official Python implementation and multi-tiered sensitivity analysis engine for the manuscript **"Quantum-as-a-Service: A Literature-Driven Fuzzy Multi-Attribute Framework for Architectural Capability and QoS Prioritization"**.
 
 ---
 
 ## Overview
 
-This repository provides an auditable and reproducible decision-support framework that extends Quality Function Deployment (QFD) using Triangular Fuzzy Numbers (TFNs). The framework prioritizes service-layer software capabilities for cloud-based Quantum-as-a-Service (QaaS) platforms.
+This repository provides an auditable and reproducible decision-support framework that extends Quality Function Deployment (QFD) using Triangular Fuzzy Numbers (TFNs). The framework prioritizes service-oriented architectural capabilities for cloud-based Quantum-as-a-Service (QaaS) platforms.
 
 The execution engine translates literature-synthesized stakeholder requirements into prioritized architectural capabilities, then evaluates model stability through:
 
@@ -38,12 +38,10 @@ The execution engine translates literature-synthesized stakeholder requirements 
 ## Quickstart
 
 ### Prerequisites
-
 - Python 3.8+
 - `pip`
 
 ### Installation
-
 ```bash
 git clone https://github.com/A-K-T-K/qaas-fuzzy-qfd.git
 cd qaas-fuzzy-qfd
@@ -51,9 +49,7 @@ pip install -r requirements.txt
 ```
 
 ### Run the Analysis
-
 Execute `main.py` to run the full computational pipeline, print summary tables to the terminal, execute sensitivity diagnostics, and generate all output figures:
-
 ```bash
 python main.py
 ```
@@ -74,7 +70,6 @@ Running `main.py` reproduces all numerical calculations and figures described in
 ## Dependencies
 
 The required Python packages are listed in [`requirements.txt`](requirements.txt):
-
 ```text
 numpy>=1.21.0
 pandas>=1.3.0
@@ -85,9 +80,17 @@ tabulate>=0.8.9
 
 ---
 
-## Citation & Metadata
+## Authors
 
-Details will be updated upon final publication.
+- **Abhinav Krishnan T K** (Corresponding Author) — Subir Chowdhury School of Quality and Reliability, Indian Institute of Technology Kharagpur — `aktk.24@kgpian.iitkgp.ac.in`
+- **Indranil Hazra** — Subir Chowdhury School of Quality and Reliability, Indian Institute of Technology Kharagpur — `ihazra@iitkgp.ac.in`
+
+
+---
+
+## Funding
+
+This work was supported by the Sponsored Research and Industrial Consultancy (SRIC), Indian Institute of Technology Kharagpur, under Grant No. IIT/SRIC/FSRG/2025/28(R).
 
 ---
 
